@@ -1,5 +1,6 @@
 package org.psc.jsonsb.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,6 +14,7 @@ import java.math.BigDecimal;
 @Wither
 public class MeaninglessData {
 
+    @JsonProperty("someText")
     private String text;
 
     private Long sum;

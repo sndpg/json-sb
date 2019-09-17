@@ -1,6 +1,7 @@
 {
+  "SOMETEXT": "someText",
   "text": "abcdef",
   "sum": 1234,
-  "additionalText": "more meaningless text",
+  "someAdditionalText": "more meaningless text",
   "anotherSum": 1234.555
 }
